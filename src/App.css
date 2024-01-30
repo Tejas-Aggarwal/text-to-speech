@@ -49,18 +49,18 @@ textarea:focus{
   background-color: #4072b8;
   transform: scale(1.05);
   font-size:16px;
-  overflow: auto;
+
 
 }
 
-.section-buttons{
+/* .section-buttons{
 
   display:flex;
   align-items: center;
   gap:20px;
   flex-wrap: wrap;
 
-}
+} */
 
 .btn-convert {
   background-color: #5095f8;
