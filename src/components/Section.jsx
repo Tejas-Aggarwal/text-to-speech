@@ -7,7 +7,6 @@ const Section = ({ text, setText }) => {
     const [selectedVoiceIndex, setSelectedVoiceIndex] = useState(0);
 
     useEffect(() => {
-        // Additional initialization if needed
     }, []);
 
     const handleVoiceChange = (e) => {

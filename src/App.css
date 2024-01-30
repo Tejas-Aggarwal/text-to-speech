@@ -51,13 +51,13 @@ textarea:focus{
 
 }
 
-/* .section-buttons{
-  width:100px;
+.section-buttons{
+
   display:flex;
   align-items: center;
   gap:20px;
 
-} */
+}
 
 .btn-convert {
   background-color: #5095f8;
@@ -72,7 +72,6 @@ textarea:focus{
 
 
 select{
-  flex:1;
   height:45px;
   padding: 0 20px;
   width:30vw;
