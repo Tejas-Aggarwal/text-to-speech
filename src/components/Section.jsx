@@ -23,7 +23,7 @@ const Section = ({ text, setText }) => {
                 onChange={(e) => setText(e.target.value)}
             />
             <div className="section-buttons">
-                <select value={selectedVoiceIndex} onChange={handleVoiceChange}>
+                <select value={selectedVoiceIndex} onChange={handleVoiceChange} onTouchStart={handleVoiceChange}>
                     {voices.map((voice, i) => (
                         <option key={i} value={i}>
                             {voice.name}

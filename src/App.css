@@ -53,14 +53,14 @@ textarea:focus{
 
 }
 
-/* .section-buttons{
+.section-buttons{
 
   display:flex;
   align-items: center;
   gap:20px;
   flex-wrap: wrap;
 
-} */
+}
 
 .btn-convert {
   background-color: #5095f8;
