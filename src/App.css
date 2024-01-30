@@ -18,6 +18,7 @@ textarea{
   height:250px;
   border: 1px solid #ced4da;
   font-size:17px;
+  box-sizing: border-box;
 }
 
 textarea:focus{
@@ -48,6 +49,7 @@ textarea:focus{
   background-color: #4072b8;
   transform: scale(1.05);
   font-size:16px;
+  overflow: auto;
 
 }
 
@@ -56,6 +58,7 @@ textarea:focus{
   display:flex;
   align-items: center;
   gap:20px;
+  flex-wrap: wrap;
 
 }
 
